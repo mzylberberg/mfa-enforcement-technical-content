@@ -1,4 +1,4 @@
-# mfa-enforcement-technical-content
+# MFA Enforcement
  “One System, Three Stories – MFA Enforcement”. 
 
  This mock project demonstrates how I document the same technical change (MFA enforcement) for three audiences: executives, technical teams, and business stakeholders.
