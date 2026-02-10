@@ -15,7 +15,7 @@ This project models a policy-driven approach to MFA enforcement, with an emphasi
 ## What This Showcases
 - Audience-aware writing (executive vs technical vs business)
 - Clear structure, scannability, and decision-focused framing
-- Visual communication via a simple authentication flow diagram
+- Visual communication via an authentication flow diagram
 
 ## Tools used
 - Markdown (GitHub-friendly documentation)
