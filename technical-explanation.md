@@ -24,7 +24,7 @@ MFA enforcement requires users to complete a second authentication step during l
 - Conditional access rules (location, device compliance, risk level)
 
 ## Validation Checklist
-- MFA challenge triggered for all targeted users
-- Enrollment flow works end-to-end
-- Help desk runbook is available for common issues
-- Monitoring/alerts in place for repeated MFA failures
+- [ ] MFA challenge triggered for all targeted users
+- [ ] Enrollment flow works end-to-end
+- [ ] Help desk runbook is available for common issues
+- [ ] Monitoring/alerts in place for repeated MFA failures
