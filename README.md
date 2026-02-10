@@ -15,7 +15,7 @@
 
 ## Tools used
 - Markdown (GitHub-friendly documentation)
-- Diagram tool (draw.io / PowerPoint) for the MFA flow visual
+- Diagram tool (draw.io) for the MFA flow visual
 
 ## Notes
 This is a portfolio sample, not official documentation for any specific product.
