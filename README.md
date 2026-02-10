@@ -3,13 +3,17 @@
 
  This mock project demonstrates how I document the same technical change (MFA enforcement) for three audiences: executives, technical teams, and business stakeholders.
 
+## Project Context 
+This project models a policy-driven approach to MFA enforcement, with an emphasis on governance, risk-based decision-making, and stakeholder impact. Rather than focusing solely on authentication mechanics, the guide demonstrates how access controls can be designed to balance security, usability, and operational continuity across an organization.
+
+
 ## Contents
 - [Executive Brief](executive-brief.md)
 - [Technical Explanation](technical-explanation.md)
 - [Business Impact Summary](business-impact.md)
 
-## What this showcases
-- Audience-aware writing (exec vs technical vs business)
+## What This Showcases
+- Audience-aware writing (executive vs technical vs business)
 - Clear structure, scannability, and decision-focused framing
 - Visual communication via a simple authentication flow diagram
 
