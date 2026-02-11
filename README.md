@@ -11,7 +11,7 @@ This project models a policy-driven approach to MFA enforcement, with an emphasi
 - [Executive Brief](executive-brief.md)
 - [Technical Explanation](technical-explanation.md)
 - [Business Impact Summary](business-impact.md)
-- [MFA Enforcement Flow Diagram](images/MFA%20Flow%20Diagram.pdf) 
+- [MFA Enforcement Flow Diagram](images/MFA-Flow-Diagram.pdf) 
 
 ## What This Showcases
 - Audience-aware writing (executive vs technical vs business)
