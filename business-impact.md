@@ -1,12 +1,11 @@
 # Business Impact Summary — MFA Enforcement
-## This document supports business & product stakeholders
+## This document supports Business & Product Stakeholders
 
-## Stakeholders
-- IT / Identity Access Management (IAM) team
-- Security / Risk team
-- Help desk / Support team
-- Business unit leaders
-- End users
+## Stakeholders Impacted
+- **IT / Identity Access Management (IAM) Teams :** Defined enrollment enforcement, exception handling, and escalation logic
+- **Security / Risk Teams :** Layered controls, behavioral signals, and auditable access decisions
+- **Business Leadership :** Lower account compromise risk without unnecessary disruption to productivity
+- **End Users :** Reduced authentication friction for low-risk logins, with clear recovery and escalation paths
 
 ## Benefits
 - Reduced account compromise risk
