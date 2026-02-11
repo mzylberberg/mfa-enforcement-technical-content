@@ -3,6 +3,11 @@
 ## Overview
 MFA enforcement requires users to complete a second authentication step during login. This reduces reliance on passwords alone and adds an extra layer of security from brute force attacks (e.g. dictionary attacks, password spraying, credential stuffing)
 
+## Design Rationale
+This MFA enforcement flow is designed to support risk-aware access decisions rather than one-size-fits-all authentication. Behavioral signals, such as keystroke dynamics, are used to reduce friction for low-risk login attempts, while OTP verification and escalation paths provide layered protection when risk thresholds are exceeded.
+
+Escalation mechanisms and split-channel OTP delivery are included to preserve account security without defaulting to full lockout, supporting both security objectives and business continuity. Enrollment checks ensure policy compliance while maintaining a clear recovery path for legitimate users.
+
 ## Authentication Flow (simplified)
 1. User enters username + password
 2. System validates credentials
@@ -12,6 +17,8 @@ MFA enforcement requires users to complete a second authentication step during l
 6. If MFA fails, OTP can be a secondary option to verify authentication
 
 > Diagram: `images/mfa-flow.png` (to be added)
+The authentication flow highlights key decision points where policy and risk thresholds influence access outcomes. Each branch represents an auditable control decision rather than an ad-hoc technical response, supporting transparency and consistent enforcement.
+
 
 ## Enrollment & Policy Behavior
 - Users without MFA enrollment will be forced to enroll at next sign-in
