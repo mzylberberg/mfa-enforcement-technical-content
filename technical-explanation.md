@@ -8,6 +8,13 @@ This MFA enforcement flow is designed to support risk-aware access decisions rat
 
 Escalation mechanisms and split-channel OTP delivery are included to preserve account security without defaulting to full lockout, supporting both security objectives and business continuity. Enrollment checks ensure policy compliance while maintaining a clear recovery path for legitimate users.
 
+## Scope and Assumptions
+
+This flow illustrates one example of a risk-adaptive MFA implementation. Not all MFA systems incorporate behavioral signals such as keystroke dynamics. In practice, organizations may rely on alternative contextual signals (e.g., device trust, location, time-of-day, or network posture) to inform authentication decisions.
+
+The inclusion of behavioral authentication in this model is intended to demonstrate how adaptive signals can reduce unnecessary friction while preserving strong access controls, rather than to imply a universal MFA requirement.
+
+
 ## Authentication Flow (simplified)
 1. User enters username + password
 2. System validates credentials
