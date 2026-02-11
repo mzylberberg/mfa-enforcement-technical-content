@@ -16,7 +16,7 @@ Escalation mechanisms and split-channel OTP delivery are included to preserve ac
 5. Access is granted (or denied if MFA fails)
 6. If MFA fails, OTP can be a secondary option to verify authentication
 
-> Diagram: `images/mfa-flow.png` (to be added)
+> Diagram: `images/MFA%20Flow%20Diagram.pdf` (to be added)
 > 
 The authentication flow highlights key decision points where policy and risk thresholds influence access outcomes. Each branch represents an auditable control decision rather than an ad-hoc technical response, supporting transparency and consistent enforcement.
 
